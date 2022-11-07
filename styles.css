@@ -62,7 +62,12 @@ button {
   width: 300px;
 }
 
-
+.info-images {
+  border-style: solid;
+  border-color: #3882F6;
+  border-radius: 4px;
+  border-width: 2px;
+}
 
 h2 {
   color: #1F2937;
@@ -79,6 +84,10 @@ h2 {
 }
 .bottom-banner {
   background-color: #3882F6;
+  color: #F9FAF8;
 }
 
-
+footer {
+  background-color: #1F2937;
+  color:#E5E7EB;
+}
