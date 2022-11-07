@@ -57,3 +57,28 @@ button {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+.lightbulb {
+  width: 300px;
+}
+
+
+
+h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  color:#1F2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight:100;
+}
+.bottom-banner {
+  background-color: #3882F6;
+}
+
+
