@@ -1,5 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
+
 }
 
 .topdark {
@@ -8,15 +9,11 @@ body {
 }
 
 .header {
-  color: #F9FAF8;
   display: flex;
   justify-content: space-between;
-  
-}
+  align-items: center;
+  padding: 16px;
 
-.links {
-  display: flex;
-  
 }
 
 .logo {
@@ -27,9 +24,36 @@ body {
 
 ul {
   list-style: none;
+  display: inline-flex;
+  gap: 12px;
+  
 }
 
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
+  font-size: 18px;
   color: #E5E7EB;
+}
+
+.hero-main {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.hero-secondary {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+button {
+  background-color: #3882F6;
+  color:#F9FAF8;
+  border-radius: 3px;
+  border-style: none;
+  font-size: 18px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
