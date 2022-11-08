@@ -93,14 +93,14 @@ a:link, a:visited, a:hover, a:active {
   
 }
 
-button {
+.sign-up {
   background-color: #3882F6;
   color:#F9FAF8;
   border-radius: 3px;
   border-style: none;
   font-size: 18px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -152,15 +152,44 @@ h2 {
 .bottom-banner {
   background-color: #3882F6;
   color: #F9FAF8;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8px;
 }
+
+
 
 h4 {
   font-size: 36px;
 }
 
+
+
+
 .banner-text > p {
   color: #E5E7EB;
   
+}
+
+.sign-up-bottom {
+  background-color: #3882F6;
+  color:#F9FAF8;
+  border-radius: 3px;
+  border-style: none;
+  font-size: 18px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-color: #F9FAF8;
 }
 
 footer {
