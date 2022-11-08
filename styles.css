@@ -42,8 +42,8 @@ a:link, a:visited, a:hover, a:active {
 
 .hero {
   display: flex;
-  justify-content: space-between;
-  gap: 16px;
+  justify-content: center;
+  gap: 20px;
   align-items: center;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -54,7 +54,7 @@ a:link, a:visited, a:hover, a:active {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 50%;
+  flex: 1;
   margin: 0;
   
   
@@ -65,26 +65,32 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .hero-text {
-  width: 50%;
+  
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  flex: 1;
+  
 }
 
 
 
 
 .hero-main {
-  font-size: 48px;
+  display: flex;
+  font-size: 40px;
   color: #F9FAF8;
   font-weight: 900;
-  
+  margin-bottom: 0;
   
 }
 
 .hero-secondary {
+  display: flex;
   font-size: 18px;
   color: #E5E7EB;
+  margin-top: 0;
+  
 }
 
 button {
